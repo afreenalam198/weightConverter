@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+  color: #141212;
+}
+
+body {
+  height: 100vh;
+  background-color: #0c0c0e;
+}
+
+#particles-js {
+  height: 100%;
+}
+
+#title {
+  position: absolute;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 52px;
+  color: #FAFAFA;
+  text-align: center;
+  top: 8rem;
+  width: 100%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  width: 100%;
+  top: 38%;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #FAFAFA;
+  border-radius: 5px;
+  width: 48rem;
+  height: 5rem;
+  padding: 0 1.5rem;
+}
+
+label {
+  font-size: 32px;
+  margin-right: 1rem;
+}
+
+#weightInput {
+  border: solid #141212;
+  border-radius: 4px;
+  height: 2rem;
+  font-size: 18px;
+  padding: 0 0.2rem;
+}
+
+#list {
+  border: solid #141212;
+  border-radius: 4px;
+  height: 2rem;
+  margin: 0 0.75rem;
+  font-size: 16px;
+}
+
+#goBtn {
+  background-color: #141212;
+  color: #FAFAFA;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  height: 2rem;
+  width: 3rem;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#weightOutput {
+  margin-left: 0.75rem;
+  font-size: 18px;
+  border: none;
+  height: 2rem;
+}
+
+@media (max-width: 50em) {
+  #title {
+    top: 6rem;
+  }
+  label {
+    font-size: 25px;
+  }
+  .content {
+    width: 28rem;
+    height: 15rem;
+    padding: 1.5rem;
+  }
+  #list {
+    margin: 0 2rem 0 0;
+  }
+  #weightOutput {
+    margin: 0 2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
